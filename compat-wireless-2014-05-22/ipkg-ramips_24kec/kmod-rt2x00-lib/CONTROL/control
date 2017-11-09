@@ -1,0 +1,9 @@
+Package: kmod-rt2x00-lib
+Version: 3.10.49+2014-05-22-1
+Depends: kernel (=3.10.49-1-ca4ab6848c900973bd06ae7c1a0a61cf), kmod-mac80211, kmod-lib-crc-itu-t
+Source: package/kernel/mac80211
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ramips_24kec
+Installed-Size: 21403
+Description:  Ralink Drivers for RT2x00 cards (LIB)
